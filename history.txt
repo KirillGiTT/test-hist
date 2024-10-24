@@ -1,0 +1,82 @@
+   14  ls -la
+   15  mkdir /Documents/MyCppProjects
+   16  cd /Documents
+   17  cd ./Documents
+   18  mkdir MyCppProjects
+   19  cd ./MyCppProjects
+   20  touch Project.cpp
+   21  ls
+   22  mv Project.cpp project.cpp
+   23  ls
+   24  git init
+   25  git config --global user.name "Kyrylo Pylypenko"
+   26  git config --global user.email pkirill130908@gmail.com
+   27  pwd
+   28  ls
+   29  ls -a
+   30  man ls
+   31  cd ./.git
+   32  ls
+   33  ls -la
+   34  cat config
+   35  g++
+   36  gcc
+   37  git
+   38  cd ..
+   39  git status
+   40  git add
+   41  git add project.cpp
+   42  git status
+   43  git commit
+   44  git log
+   45  vim project.cpp
+   46  git commit -m created main function
+   47  git commit -m "created main function"
+   48  git log
+   49  git dif
+   50  git diff
+   51  git add project.cpp
+   52  git status
+   53  git commit -m "created main function"
+   54  git log
+   55  vim project.cpp
+   56  touch other.cpp
+   57  touch another.cpp
+   58  ls
+   59  git status
+   60  git add project.cpp
+   61  git add other.cpp
+   62  gut status
+   63  git status
+   64  git commit -m "other commit"
+   65  git status
+   66  git log
+   67  git add another.cpp
+   68  git commit -m "another commit"
+   69  git log
+   70  git status
+   71  git checkout
+   72  git status
+   73  ls -la
+   74  git checkout 8d9a17a983a4434aec412b1fb001e780ca7573f3
+   75  ls -la
+   76  git checkout 1ccaa4ef085f767e5128445b0d2f6d9a1268bcdd
+   77  ls -la
+   78  ssh-keygen
+   79  ls -la /home/admin/.ssh/
+   80  cat id_mykey.pub
+   81  cat /home/admin/.ssh/id_mykey.pub
+   82  ssh git@github.com
+   83  git remote -v
+   84  git remote add origin git@github.com:KirillGiTT/my-cpp-projects.git
+   85  git remote -v
+   86  cd .git
+   87  cat config
+   88  cd ..
+   89  git status
+   90  git checkout master
+   91  git status
+   92  git log
+   93  git push origin master
+   94  history
+   95  history > /home/admin/Documents/history.txt
